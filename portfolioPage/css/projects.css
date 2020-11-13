@@ -1,0 +1,33 @@
+/* navbar */
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 1px;
+  font-size: 22px;
+  background-color: rgb(27, 27, 44);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+  justify-content: space-between;
+  padding: 8px;
+  align-items: center;
+  text-decoration: none;
+}
+/* end navbar */
+body {
+  background-color: rgb(27, 27, 44);
+  color: white;
+}
